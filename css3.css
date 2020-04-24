@@ -1,0 +1,359 @@
+#nav1{
+    display: flex;
+    font-family: sans-serif;
+    
+    
+}
+
+#nav1 li{
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:50px;
+    z-index: 1;
+}
+
+#nav1 li a{
+    text-decoration:none; 
+    color:hsl(228, 39%, 23%);
+    z-index: 1;
+}
+
+#nav1 li a:hover{
+    
+    color:hsl(227, 12%, 61%);
+      z-index: 1;
+}
+
+#nav1 img{
+    padding-left: 100px;
+    padding-right: 200px;
+    padding-top:50px;
+}
+
+#nav1 .button{
+    border:transparent 2px solid;
+    padding: 10px 10px;
+    margin-left: 100px;
+    margin-top: 40px;
+    border-radius: 20px;
+    background: hsl(12, 88%, 59%);
+      z-index: 1;
+}
+
+#nav1 .button a{
+    text-decoration: none;
+    color:white;
+    z-index: 1;
+    
+}
+
+#nav1 .button:hover{
+    background: hsl(12, 90%, 70%);
+      z-index: 1;
+    
+}
+
+#nav2{
+    padding-left: 100px;
+    padding-top: 100px;
+    font-family: sans-serif;
+}
+#nav2 h1{
+    color:hsl(228, 39%, 23%);
+    font-size:50px;
+    
+    font-weight: bold;
+    line-height: 55px;
+}
+
+#nav2 p{
+    color:hsl(227, 12%, 61%);
+    line-height: 20px;
+}
+
+#nav2 a{
+    text-decoration: none;
+    color:white;
+}
+#nav2 .button2{
+     border:transparent 2px solid;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-right: 1120px;
+    margin-top: 40px;
+    padding-right: 10px;
+    border-radius: 20px;
+    background: hsl(12, 88%, 59%);
+    color:white;
+}
+
+#nav2 .button2:hover{
+      background: hsl(12, 90%, 70%);
+}
+
+#nav2 img{
+    position: absolute;
+    right:100px;
+    top:150px;
+    z-index:1;
+}
+
+.back{
+    position: absolute;
+    right:0px;
+    top: -150px;
+    z-index:0;
+    overflow: hidden;
+    
+}
+
+#nav3{
+    padding-top:200px;
+    font-family: sans-serif;
+    
+   
+    
+}
+
+#nav3 p{
+    color:hsl(227, 12%, 61%);
+}
+
+#nav3 .left{
+    list-style-type: none;
+    padding-left: 100px !important;
+}
+
+#nav3 .right{
+    position: absolute;
+    right:220px;
+    top:780px;
+}
+
+#nav3 .right h1{
+    font-size:20px;
+}
+
+
+#nav3 .right h1 span{
+    border:transparent 2px solid;
+    padding: 5px 20px;
+    margin-left: 100px;
+    margin-top: 40px;
+    border-radius: 25px;
+    background: hsl(12, 88%, 59%);
+      z-index: 1;
+    color:white;
+    font-size: 20px;
+    font-weight:100;
+}
+
+#nav3 .right p{
+    padding-left:175px !important;
+}
+
+.front{
+    position: absolute;
+    left:-400px;
+    height: 100%;
+    width:50%;
+    
+    padding-top: 50px;
+    z-index: 0;
+}
+
+.heading h1{
+    color:inherit;
+    position: absolute;
+    right:40%;
+    top:210%;
+    font-family: sans-serif;
+    font-size:30px;
+}
+
+#nav4{
+    display: flex;
+    justify-content: space-between;
+    padding-top:450px;
+    height:300px;
+}
+
+#nav4 img{
+    height: 100px;
+    width:100px;
+    z-index: 1;
+    padding-left: 110px;
+}
+
+#nav4 h1{
+    padding-left: 75px;
+    font-family: sans-serif;
+}
+
+#nav4 p{
+    color:hsl(227, 12%, 61%);
+     font-family: sans-serif;
+}
+
+#nav4 div{
+    border:transparent 2px soild;
+    background: hsl(0, 0%, 98%);
+    margin: 10px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#nav4 .p2 h1{
+    padding-left:130px;
+}
+
+#nav4 .p2 img{
+    padding-left:150px;
+}
+
+.button3 a{
+    color:white;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.button3{
+     border:transparent 2px solid;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-right: 100px;
+    margin-top: 40px;
+    padding-right: 10px;
+    border-radius: 20px;
+    background: hsl(12, 88%, 59%);
+    color:white;
+    position: absolute;
+    left:47%;
+}
+
+.button3:hover{
+    background: hsl(12, 90%, 70%);
+}
+
+#orange{
+    background: hsl(12, 88%, 59%);
+    display:flex;
+    margin-top: 200px;
+     font-family: sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+#orange h1{
+    padding-left: 100px;
+   
+    font-weight: 200;
+    color: white;
+}
+
+#orange .button4{
+    position: absolute;
+    right:150px;
+    padding-top:50px;
+     border:transparent 2px solid;
+    padding: 10px 10px;
+    margin-left: 100px;
+    margin-top: 40px;
+    border-radius: 20px;
+    background: white;
+      z-index: 1;
+    
+}
+
+#orange a{
+    text-decoration: none;
+    color: hsl(12, 88%, 59%);
+1    
+}
+
+#orange .button4:hover{
+    background:hsl(0, 0%, 90%);
+}
+
+#black{
+    background: black;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    color:white;
+}
+
+#black img{
+    padding-right: 10px;
+}
+
+.list1{
+    padding-left:150px;
+    line-height: 30px;
+}
+
+#black li{
+    list-style-type: none;
+    font-family: sans-serif;
+  
+}
+
+#black li a{
+    text-decoration: none;
+      color:hsl(0, 0%, 98%);
+}
+
+#black li a:hover{
+    color:hsl(12, 88%, 59%);
+    transition: 0.6s ease;
+}
+
+
+.list2{
+    padding-left:200px;
+    line-height: 30px;
+}
+
+.end{
+    padding-left: 140px;
+}
+
+.end input{
+    padding:10px 10px;
+    border-radius: 20px;
+    border: 2px solid hsl(12, 88%, 59%);
+    color:hsl(12, 88%, 59%);
+    margin-right: 10px;
+}
+
+.end button{
+    color:white;
+    background: hsl(12, 88%, 59%);
+    padding:8px 20px;
+    border-radius: 20px;
+     border: 2px solid transparent;
+    font-size: 15px;
+}
+
+.end button:hover{
+     background: hsl(12, 90%, 70%);
+    
+}
+
+.end p{
+    color: hsl(12, 88%, 59%);
+    font-family: sans-serif;
+}
+
+.end span{
+    color: darkgrey;
+    position:absolute;
+    right:150px;
+    font-family: sans-serif;
+}
+
